@@ -1,0 +1,59 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Efficient Depth and RGB Camera Fusion Algorithm for Depth
+  Imaging with Improved Spatial Resolution
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Yannick
+    family-names: Waelti
+    email: yannick.waelti@zhaw.ch
+    orcid: 'https://orcid.org/0009-0001-9529-7251'
+    affiliation: Zurich University of Applied Sciences
+  - given-names: Matthias
+    family-names: Ludwig
+    orcid: 'https://orcid.org/0009-0009-4586-8616'
+    affiliation: Zurich University of Applied Sciences
+  - given-names: Josquin
+    family-names: Rosset
+    affiliation: Zurich University of Applied Sciences
+  - given-names: Teddy
+    family-names: Loeliger
+    affiliation: Zurich University of Applied Sciences
+repository-code: >-
+  https://github.com/isc-zhaw/Efficient-Depth-and-RGB-Camera-Fusion-Algorithm
+abstract: >-
+  Cameras for capturing depth images typically suffer from
+  low spatial resolution, whereas RGB cameras offer high
+  resolution. A common approach to address these drawbacks
+  of depth cameras is to combine them with RGB cameras,
+  using a fusion algorithm. We propose, implement and
+  benchmark a new spatial upscaling algorithm based on edge
+  extrapolation and compare it to state-of-the-art spatial
+  upscaling methods. The edge extrapolation algorithm is
+  very efficient and achieves state-of-the-art performance.
+  It produces high-resolution depth maps with particularly
+  clean edges, although it also exhibits certain specific
+  artifacts in the output. The new algorithm first
+  interpolates the depth image and combines it with an RGB
+  image to extract an edge map. The blurred edges of the
+  interpolated depth map are then replaced by an
+  extrapolation from neighboring pixels for the final
+  high-resolution depth map. The algorithm is benchmarked
+  using the Middlebury and DIML datasets, as well as a
+  number of new 3D time-of-flight depth images.
+keywords:
+  - Depth camera
+  - Depth imaging
+  - 3D Time-of-Flight (3D ToF)
+  - Sensor fusion
+  - Resolution upscaling
+  - Depth map upsampling
+  - Edge Detection
+  - Edge extrapolation
+license: MIT

@@ -1,0 +1,13 @@
+matplotlib
+scipy
+opencv-contrib-python-headless
+tqdm
+pytorch==2.0.0
+torchvision==0.15.1
+cudatoolkit==11.7
+h5py
+wandb
+scikit-image==0.18.3
+setuptools==59.5.0
+configargparse
+segmentation-models-pytorch==0.2

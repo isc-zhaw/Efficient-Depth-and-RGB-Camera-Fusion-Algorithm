@@ -1,0 +1,12 @@
+[submodule "AHMF"]
+	path = AHMF
+	url = https://github.com/zhwzhong/AHMF.git
+[submodule "dkn"]
+	path = dkn
+	url = https://github.com/cvlab-yonsei/dkn.git
+[submodule "graph_super_resolution"]
+	path = graph_super_resolution
+	url = https://github.com/prs-eth/graph-super-resolution
+[submodule "diffusion_super_resolution"]
+	path = diffusion_super_resolution
+	url = https://github.com/prs-eth/Diffusion-Super-Resolution.git
